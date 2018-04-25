@@ -25,7 +25,7 @@ variable='Hello!'# 字符串需要用两个双引号或两个单引号括起来
 ```
 变量的类型在本章中稍后会具体介绍。
 
-在Python中，你无须提前声明变量，更不需要声明变量的类型，python会根据你每次给的值来判断这个变量的类型。
+在python中，你无须提前声明变量，更不需要声明变量的类型，python会根据你每次给的值来判断这个变量的类型。
 
 两个变量可以用`=`赋值，`=`右边的值会覆盖`=`左边变量的值：
 ```python
@@ -37,6 +37,33 @@ text = variable;#创建一个变量叫text，并将variable的值赋给text
       str1 = "Hello "
       str2 = "Java!"
       print(str1+str2) # 连接str1和str2并输出
+</lab>
+
+输出变量
+------
+在python中输出变量非常简单，如下列代码所示。
+```
+a=10
+print(a)
+```
+如果你想要在一个字符串后面输入数字的话，你可以加个英文逗号，再加上变量名。
+```
+a=10
+print("The number is ",a)
+```
+但是当我们需要在字符串中间输入数字该怎么办呢？ 我们可以用`%d`来代替这个整数变量需要出现的位置，对于浮点类型，我们可以用`%f`来代替。然后在引号外面，括号里面将`%`加在变量前，变量按出现顺序排列，否则会报错。
+```
+age=16
+score=99.9
+print("I am %d years old, my score is %f." %(age,score))
+```
+来试着输出变量吧！
+
+<lab lang="python" parameters="filename=Hello.py">
+<notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
+#python3
+name='John'
+#输出你的名字
 </lab>
 
 给变量起名字
