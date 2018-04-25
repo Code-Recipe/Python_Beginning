@@ -59,28 +59,34 @@ else：
 	...
 ```
 且 e.g.
+
 ```python
 if(a and b)：
 	...
 ```
 这段代码等效于下面的代码：
+
 ```python
 if(a):
 	if(b):
     	...
-	```
+```
 或 e.g.
+
 ```python
 if(a or b):
 	...
 ```
 这段代码等效于下面的代码（例外是，如果`a`和`b`都是`true`这个代码不会执行两次，只会执行一次）：
+
 ```python
 if(a):
 	...
 if(b):
 	...
 ```
+有趣的是，`1`和`0`在if语句里也能作为`True`和`False`进行判断。由于计算机语言的实质是二进制语言，`0`在计算机语言中即代表`False`,`1`即代表`True`。
+
 大家也可以在下面的lab中尝试一下，修改其中的逻辑运算符，来感受一下其中的差别。
 <lab lang="python" parameters="filename=Hello.py">
 <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
@@ -93,7 +99,6 @@ else:
 
 </lab>
 
-有趣的是，`1`和`0`在if语句里也能作为`True`和`False`进行判断。由于计算机语言的实质是二进制语言，`0`在计算机语言中即代表`False`,`1`即代表`True`。
 最小化求值原理
 -----
 使用电脑的人总是希望电脑可以很快完成任务，设计电脑的工程师当然也是这样想的。因此计算机程序再运行的时候会自动排除一些不可能发生的情况，从而让电脑少算一些值来加快电脑运行的速度。
@@ -107,12 +112,10 @@ else:
 比如当我们程序是这样的时候，无论第二个条件“200 == 200”怎么改变，是不是正确的，都不会改变程序最后输出“No”的事实：
 ```Python
 a = 100;
-if(a == 200 and 200 == 200){
-  System.out.println("Yes");
-}
-else{
-  System.out.println("No");
-}
+if(a == 200 and 200 == 200)：
+	print("Yes")
+else：
+	print("No")
 ```
 请在lab中试一下这个神奇的功能吧！
 <lab lang="python" parameters="filename=Hello.py">
@@ -124,9 +127,9 @@ if(a == 200 and 200 == 200):
 else:
 	print("b")
 if(a == 200 or 200 == 200):
-  print("c")
+	print("c")
 else:
-  print("d")
+	print("d")
 
 </lab>
 
