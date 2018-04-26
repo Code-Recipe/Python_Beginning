@@ -10,7 +10,8 @@
 需要掌握的异常
 -----
 在Python中，有非常非常多的异常，而查证这些异常的方法更是一门很深的学问。
-![常见异常及翻译](TRANSCommon Exceptions in Python)
+
+![常见异常及翻译](Python_Beginning/Chapter6/TRANSCommon Exceptions in Python.png)
 
 以上就是我们需要掌握的异常了。下面，我们将学习如何排除异常
 
