@@ -27,7 +27,7 @@ def divide(a,b):
   else:
     return result
 ```
-如上面的代码所示，如果被除数为0时，程序不会终止运行并报错，而是会打印`The dividend cannot be zero!`。
+如上面的代码所示，如果被除数为0时，程序不会终止运行并报错，而是会打印`The dividend cannot be zero!`。在Python里我们还可以使用`finally`关键字，这是无论有没有异常都会在我们运行的代码之后执行的语句。`finally`里面常常包括代码的收尾工作（比如关闭文件），这样就算代码中有异常文件也会被正常关闭。
 
 人为制造异常
 ------
