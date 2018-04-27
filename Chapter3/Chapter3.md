@@ -77,7 +77,7 @@ if(a):
 if(a or b):
 	...
 ```
-这段代码等效于下面的代码（例外是，如果`a`和`b`都是`true`这个代码不会执行两次，只会执行一次）：
+这段代码等效于下面的代码（例外是，如果`a`和`b`都是`True`这个代码不会执行两次，只会执行一次）：
 
 ```python
 if(a):
@@ -152,7 +152,7 @@ else:
 
 `(not a) or (not b) = (not True) or (not True) = False or False = False`
 
-`not(a and b) = not(true and true) = not true = False`
+`not(a and b) = not(True and True) = not True = False`
 
 两者的值是也一样的。
 
