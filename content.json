@@ -1,15 +1,15 @@
 {
-  "name": "Java入门教程",
-  "desc": "这个教程主要配合Java介绍编程的基础知识概念，对学习和备考AP以及入门计算机编程都会很有帮助。",
-  "keywords": ["编程", "基础"],
+  "name": "Python入门教程",
+  "desc": "这个教程给初学编程者使用，这个教程主要配合Python介绍编程的基础知识概念，对学习机器学习和入门计算机编程都会很有帮助。",
+  "keywords": ["编程", "基础", "Python"],
   "cover": "cover.png",
   "tags": ["编程", "基础", "入门"],
   "chapters": [
     {
-      "name": "初入Java编程",
+      "name": "初入Python编程",
       "content": "Chapter1/Chapter1.md",
       "sections": [
-        {"name":"输入输出"},
+        {"name":"输入输出和编码"},
         {"name":"转义"},
         {"name":"注释"},
         {"name":"小练习"}
@@ -24,7 +24,7 @@
         {"name":"类型及储存方式"},
         {"name":"运算和操作符"},
         {"name":"标识符"},
-        {"name":"final变量"},
+        {"name":"常量"},
         {"name":"小练习"}
       ]
     },
