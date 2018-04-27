@@ -10,8 +10,8 @@ for循环
 
 for循环的用法如下：
 ```python
-    for 变量名 in range(下限，上限，步长):
-      #循环内容
+for 变量名 in range(下限，上限，步长):
+    #循环内容
 ```
 for的运行方式是：
 
@@ -25,8 +25,8 @@ c)重复执行b)直到循环结束。
 
 e.g.
 ```python
-    for i in range(1,5):
-    	print(i)
+for i in range(1,5):
+    print(i)
 ```
 上面的代码会输出"1 2 3 4 "。
 
@@ -34,15 +34,15 @@ while循环
 
 while循环的运行原理和for循环大抵相同，但在写法上有一定差异。while循环的写法如下：
 ```python
-    while(测试条件)：
-      //循环内容 
+while(测试条件)：
+    //循环内容 
 ```
 while循环会先判断条件，如果符合（True）就会继续执行循环内容，不符合就会跳出循环执行下面的内容，执行完循环内容后会返回来判断条件，如果符合的话接着执行循环内容，一直重复知道条件不符合（False）为止。所以说，我们如果想要像上例一样输出"1 2 3 4 "，可以这么写代码：
 ```python
-    i = 1
-    while(i < 5):
-      print(i, end =' ')
-      i = i + 1
+i = 1
+while(i < 5):
+    print(i, end =' ')
+    i = i + 1
 ```
 continue下一循环和break停止循环
 
@@ -50,15 +50,15 @@ continue下一循环和break停止循环
 
 我们可以配合实例来看一下：
 ```python
-    for i in range(1,6):
-        if (i == 3): 
-            continue
-        print(i, end=' ')
-    print("\n")
-    for n in range(1,6):
-        if (n == 3): 
-            break
-        print(n, end = ' ')
+for i in range(1,6):
+    if (i == 3): 
+        continue
+    print(i, end=' ')
+print("\n")
+for n in range(1,6):
+    if (n == 3): 
+        break
+    print(n, end = ' ')
 ```
 输出结果会是“1 2 4 5  \n  1 2”。怎么样，是不是和你想的一样呢？
 

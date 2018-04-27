@@ -58,35 +58,20 @@ print(math.e)
 至于数学方法，math类中有非常多，我们摘录一些常用的在这里：
 ```python
 sin(x) #求x的正弦
-
 cos(x) #求x的余弦
-
 asin(x) #求x的反正弦
-
 acos(x)#求x的反余弦
-
 tan(x)#求x的正切
-
 atan(x)#求x的反正切
-
 hypot(x,y)#求直角三角形的斜边长度
-
 fmod(x,y)#求x/y的余数
-
 ceil(x)#取不小于x的最小整数
-
 floor(x)#求不大于x的正大整数
-
 fabs(x)#求绝对值
-
 exp(x)#求e的x次幂
-
 pow(x,y)#求x的y次幂
-
 log10(x)#求x的以10位底的对数
-
 sqrt(x)#求x的平方根
-
 pi#π的值
 ```
 
@@ -101,8 +86,10 @@ random.random()#指random模块里的random函数，可以产生0-1.0之间的�
 ```python
 math.randint(1,10) #随机生成大于等于1，小于等于10的整数
 math.random(a,b) + 1; #随机生成大于等于a，小于等于b的整数
+```
 
 `random`模块中还有一个很强大的函数是`choice`。`random.choice()`函数可以从字符串，列表，元组等`sequence`里随机抽取函数。比如说：
+
 ```python
 import random
 print(random.choice("I love python")) #python会从这个字符串中随机抽取一个字符（包括空格）
@@ -132,5 +119,5 @@ a=rd.random() #调用random()函数
 <lab lang="python" parameters="filename=Hello.py">
 <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
 #python3
-    #请在此输入你的代码
+#请在此输入你的代码
 </lab>
