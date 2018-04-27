@@ -34,9 +34,9 @@ text = variable;#创建一个变量叫text，并将variable的值赋给text
 同时，在Python中，你可以用`+`号把**同一类型**的变量连起来
 <lab lang="python" parameters="filename=Hello.py">
 <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
-      str1 = "Hello "
-      str2 = "Java!"
-      print(str1+str2) # 连接str1和str2并输出
+str1 = "Hello "
+str2 = "Java!"
+print(str1+str2) # 连接str1和str2并输出
 </lab>
 
 输出变量

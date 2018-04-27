@@ -31,8 +31,8 @@ print("Hello Python", end='')#end参数表示这句话以''空符结尾
 
 <lab lang="python" parameters="filename=Hello.py">
 <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/7)查看。</notice>
-      #python3
-      #在这里输入代码
+#python3
+#在这里输入代码
 </lab>
 
 让我们在`#在这里输入代码`后面另起一行，输入：
@@ -51,18 +51,18 @@ print("Hello Python!")
 
 <lab lang="python" parameters="filename=Hello.py">
 <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/7)查看。</notice>
-      #python3
-      #在这里输入代码
-      print(""")
+#python3
+#在这里输入代码
+print(""")
 </lab>
 
 运行之后我们会发现错误是`SyntaxError: EOF while scanning triple-quoted string literal`,这其实想告诉我们的是，Python会发现我们有三个引号，他不能分辨这三个引号哪两个是一对。在Python里面，我们可以在"前面加一个`\`来告诉Python，方式如下：
 
 <lab lang="python" parameters="filename=Hello.py">
 <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/7)查看。</notice>
-      #python3
-      #在这里输入代码
-      print("\"")
+#python3
+#在这里输入代码
+print("\"")
 </lab>
 
 这样就可以成功输入一个双引号了。在这里，我们涉及了一个概念，叫做**转义**(escape)，之前用的一个`\"`则称为**转义序列**(escape sequence)。常见的转义序列有：
@@ -91,7 +91,7 @@ print('"') #输出一个双引号
 <lab lang="python" parameters="filename=Hello.py">
 <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/7)查看。</notice>
 #python3  
-// 在这里输入代码
+#在这里输入代码
 </lab>
 
 试试做出如下的效果：
