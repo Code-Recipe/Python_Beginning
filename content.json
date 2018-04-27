@@ -9,7 +9,7 @@
       "name": "初入Python编程",
       "content": "Chapter1/Chapter1.md",
       "sections": [
-        {"name":"输入输出和编码"},
+        {"name":"输入输出"},
         {"name":"转义"},
         {"name":"注释"},
         {"name":"小练习"}
@@ -20,11 +20,11 @@
       "content": "Chapter2/Chapter2.md",
       "sections": [
         {"name":"变量的定义、赋值和读取"},
+        {"name":"输出变量"},
         {"name":"给变量起名字"},
         {"name":"类型及储存方式"},
         {"name":"运算和操作符"},
         {"name":"标识符"},
-        {"name":"常量"},
         {"name":"小练习"}
       ]
     },
@@ -45,7 +45,6 @@
       "sections": [
         {"name":"for循环"},
         {"name":"while循环"},
-        {"name":"for-each循环"},
         {"name":"continue下一循环和break停止循环"},
         {"name":"小练习"}
       ]
@@ -56,6 +55,7 @@
       "sections": [
         {"name":"数学函数和常量的使用"},
         {"name":"随机数的产生"},
+        {"name":"import"},
         {"name":"小练习"}
       ]
     },
@@ -65,6 +65,8 @@
       "sections": [
         {"name":"发生异常的情况"},
         {"name":"需要掌握的异常"},
+        {"name":"Try...Except...Else"},
+        {"name":"人为制造异常"},
         {"name":"小练习"}
       ]
     }
