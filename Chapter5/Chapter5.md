@@ -16,37 +16,27 @@ def 函数名():
 ```
 
 函数的结果可以直接用`print()`函数打印出来。但是当我们不想直接打印出来，而是想将这个函数的结果储存到一个变量的时候，我们可以用`return`来帮助我们完成这个任务,`return`可以理解为把计算结果从函数部分传出去。
-```python
+<lab lang="python" parameters="filename=Hello.py">
+<notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
 def func(a):
   square= a*a
   return square #这个函数计算传入参数a的平方
-result=func(10) #我们把10当作参数a传进了函数func里，result会被赋值为func的计算结果
-```
+print(func(10)) #我们把10当作参数a传进了函数func里，result会被赋值为func的计算结果
+</lab>
 
-当一个函数没有`return`函数时，也就意味着这个函数不会返回任何值，那python只会执行这个函数里的代码。
-
-一个函数是由函数的名字和参数所决定的。如这个例子所示：
-```python
-def func1():
-  #代码
-def func2(a,b):
-  #代码
-  return a+b
-func1() #调用的是第一个函数
-func2()
-print(func2(1,2));//调用的是有参数的第二个函数，使用了返回值，会打印出3
-```
-大家可以在下面的lab中填入想要执行的代码，试着调用一下这个函数。
+当一个函数没有`return`语句时，也就意味着这个函数不会返回任何值，比如下面的`func1`没有返回值，而`func2`有：
 
 <lab lang="python" parameters="filename=Hello.py">
 <notice>练习环境在此无法显示，请移步至[程谱 coderecipe.cn](https://coderecipe.cn/learn/2)查看。</notice>
 def func1():
   #代码
+  print("func1")
 def func2(a,b):
   #代码
   return a+b
-    func1() #调用的是没有参数的第一个函数，没有使用返回值
-    print(func(1,2));//调用的是有参数的第二个函数，使用了返回值
+func1() #调用的是第一个函数，输出func1
+func2()
+print(func2(1,2)); #调用的是有参数的第二个函数，使用了返回值，会输出3
 </lab>
 
 为了方便我们在Python中使用数学方法和常量，python专门开发了`math`类。如果我们需要，需要在程序的最开头调取。常数主要有e和圆周率PI两个，调用方法如下：
