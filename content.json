@@ -4,6 +4,7 @@
   "keywords": ["编程", "基础", "Python"],
   "cover": "cover.png",
   "tags": ["编程", "基础", "入门"],
+  "lang": "python",
   "chapters": [
     {
       "name": "初入Python编程",
