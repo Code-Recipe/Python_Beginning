@@ -26,6 +26,24 @@ print("Hello Python!")#打印Hello Python!
 ```python
 print("Hello Python", end='')#end参数表示这句话以''空符结尾
 ```
+end在这里代表的是每个输出语句末尾的字符，默认是 '\n' 也就是换行符的意思（具体在后面有所说明）
+也就是说，你可以自定义每一个输出的末尾是什么，来看一个例子.
+```python
+print("Hello Python", end='-') # 如果在这里设置为- 末尾字符就会变成-
+print("Hello Wolrd", end='-') # 若是我们再来一个末尾是-的输出语句
+# 输出会是 Hello Python-Hello Wold-
+```
+如果你想在同一个print里面输出以上的语句，你可以尝试:
+```python
+print("Hello Python", "Hello World") #这样会输出:Hello Python Hello Wold
+```
+当然，如果你想在他们中间打上-符号，你可以使用另外一个参数:
+```python
+print("Hello Python", "Hello World", sep="-") # sep代表两句话之间以-分开.
+#这样会输出:Hello Python-Hello Wold
+```
+
+
 
 下面是练习框，让我们跟着练习框的下方的指示一起来熟悉一下练习环境吧。
 
