@@ -43,8 +43,6 @@ print("Hello Python", "Hello World", sep="-") # sep代表两句话之间以-分�
 #这样会输出:Hello Python-Hello Wold
 ```
 
-
-
 下面是练习框，让我们跟着练习框的下方的指示一起来熟悉一下练习环境吧。
 
 <lab lang="python" parameters="filename=Hello.py">
