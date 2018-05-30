@@ -57,6 +57,17 @@ age=16
 score=99.9
 print("I am %d years old, my score is %f." %(age,score))
 ```
+
+当时%d 与 %f 的功能可不止这些，接下来就看一些例子吧。(你可以复制这段代码到下面的实验室进行尝试)
+```
+num=1
+score=99.679
+print("print a 6 letter long number: %08d" % num) #会输出00000001
+print("print a 6 letter long number: %08d" % 12) #会输出00000012
+print("print a float and keep two decimal place: %.02f" % score) #会输出99.67
+print("print a float and keep two decimal place: %.02f" % 99) #会输出99.00
+```
+
 来试着输出变量吧！
 
 <lab lang="python" parameters="filename=Hello.py">
@@ -117,6 +128,7 @@ ASCII码表长这样：
 2. 布尔是几个操作符的结果类型，比如比较变量`a`是不是等于变量`b`，结果就是一个布尔类型的值，它有可能为真（相等），也有可能为假（不相等）
 
 **注意**布尔类型的`True`和`False`首字母必须大写，否则程序会报错
+
 
 运算和操作符
 ------
